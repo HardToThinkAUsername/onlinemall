@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-auth/onlinemall-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-auth/onlinemall-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-goods-webs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-item/onlinemall-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-item/onlinemall-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-sms-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-user/onlinemall-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlinemall-user/onlinemall-user-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

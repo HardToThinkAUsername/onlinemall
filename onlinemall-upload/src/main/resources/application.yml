@@ -1,0 +1,30 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: upload-service
+  servlet:
+    multipart:
+      max-file-size: 5MB # 限制文件上传的大小
+
+# 上传文件  服务器保存文件的地址
+local-save-address: C:\\my\\Code\\projects\\WebProjects\\308shop\\resources\\upload-res\\brandImg\\
+# 上传成功后返回的地址前缀(浏览器访问资源文件的前缀)
+return-base-url: http://image.onlinemall.com/
+
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+      instace:
+        lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+        lease-expiration-duration-in-seconds:  10 # 10秒不发送就过期
+fdfs:
+  so-timeout: 2000 # 超时时间
+  connect-timeout: 1024 # 链接超时时间
+  thumb-image: # 缩略图
+    width: 60
+    height: 60
+  tracker-list:  # tracker地址 :你的虚拟机服务器地址 + 端口 (默认是22122)
+    - 192.168.1.104:22122

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="onlinemall-auth-common" />
+        <module name="onlinemall-auth-service" />
+        <module name="onlinemall-cart" />
+        <module name="onlinemall-common" />
+        <module name="onlinemall-gateway" />
+        <module name="onlinemall-goods-webs" />
+        <module name="onlinemall-item-interface" />
+        <module name="onlinemall-item-service" />
+        <module name="onlinemall-order" />
+        <module name="onlinemall-registry" />
+        <module name="onlinemall-search" />
+        <module name="onlinemall-sms-service" />
+        <module name="onlinemall-upload" />
+        <module name="onlinemall-user-interface" />
+        <module name="onlinemall-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway" target="1.8" />
+      <module name="interface" target="1.8" />
+      <module name="item" target="1.8" />
+      <module name="item-interface" target="1.8" />
+      <module name="item-service" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="interface" options="-parameters" />
+      <module name="item-interface" options="-parameters" />
+      <module name="item-service" options="-parameters" />
+      <module name="onlinemall" options="" />
+      <module name="onlinemall-common" options="" />
+      <module name="onlinemall-gateway" options="" />
+      <module name="onlinemall-item-interface" options="" />
+      <module name="onlinemall-item-service" options="" />
+      <module name="onlinemall-registry" options="" />
+      <module name="onlinemall-upload" options="" />
+      <module name="registry" options="-parameters" />
+      <module name="service" options="-parameters" />
+    </option>
+  </component>
+</project>
