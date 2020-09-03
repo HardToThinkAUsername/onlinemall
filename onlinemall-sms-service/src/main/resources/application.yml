@@ -11,7 +11,7 @@ spring:
 
 onlinemall:
   sms:
-    accessKeyId: LTAI4G3stW9Ms4k79UmxZ5SP # 你自己的accessKeyId
-    accessKeySecret: PGn9gBXErw9XlpjjGFAVgQJZTIyESn # 你自己的AccessKeySecret
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret:  # 你自己的AccessKeySecret
     signName: 308网上商城 # 签名名称
     verifyCodeTemplate: SMS_189622596 # 模板名称
